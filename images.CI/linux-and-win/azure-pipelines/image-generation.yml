@@ -97,7 +97,7 @@ jobs:
                  -ImageName "$(ManagedImageName)" `
                  -ImageResourceGroupName $(AZURE_RESOURCE_GROUP) `
                  -TempResourceGroupName "$(TempResourceGroupName)" `
-                 -SubscriptionId $(AZURE_SUBSCRIPTION) `
+                 -SubscriptionId $(AZURE-SUBSCRIPTION) `
                  -TenantId $(AZURE_TENANT) `
                  -Location $(AZURE_LOCATION) `
                  -VirtualNetworkName $(BUILD_AGENT_VNET_NAME) `
@@ -177,7 +177,7 @@ jobs:
       targetType: filePath
       filePath: ./images.CI/linux-and-win/cleanup.ps1
       arguments: -TempResourceGroupName "$(TempResourceGroupName)" `
-                 -SubscriptionId $(AZURE_SUBSCRIPTION) `
+                 -SubscriptionId $(AZURE-SUBSCRIPTION) `
                  -ClientId $(CLIENT_ID) `
                  -ClientSecret $(CLIENT_SECRET) `
                  -TenantId $(AZURE_TENANT)
