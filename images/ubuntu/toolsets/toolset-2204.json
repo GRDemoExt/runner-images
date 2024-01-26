@@ -73,8 +73,8 @@
     },
     "android": {
         "cmdline-tools": "commandlinetools-linux-9477386_latest.zip",
-        "platform_min_version": "27",
-        "build_tools_min_version": "27.0.0",
+        "platform_min_version": "31",
+        "build_tools_min_version": "31.0.0",
         "extra_list": [
             "android;m2repository",
             "google;m2repository",
@@ -216,8 +216,6 @@
             "alpine:3.16",
             "alpine:3.17",
             "alpine:3.18",
-            "buildpack-deps:buster",
-            "buildpack-deps:bullseye",
             "debian:10",
             "debian:11",
             "moby/buildkit:latest",
@@ -229,7 +227,14 @@
             "node:20-alpine",
             "ubuntu:20.04",
             "ubuntu:22.04"
-        ]
+        ],
+        "components": {
+            "docker-ce": "24.0.7",
+            "docker-ce-cli": "24.0.7",
+            "containerd.io": "latest",
+            "docker-buildx-plugin": "latest",
+            "compose": "2.23.3"
+        }
     },
     "pipx": [
         {
@@ -351,6 +356,6 @@
         "version": "14"
     },
     "pwsh": {
-        "version": "7.2"
+        "version": "7.4"
     }
 }
