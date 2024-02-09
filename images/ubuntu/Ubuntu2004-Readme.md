@@ -1,12 +1,11 @@
 | Announcements |
 |-|
 | [[All OSes] Powershell Core will be updated to 7.4.x LTS on January, 28](https://github.com/actions/runner-images/issues/9115) |
-| [Old versions of Android SDK & tools will be removed from images on January, 8](https://github.com/actions/runner-images/issues/8952) |
 ***
 # Ubuntu 20.04
 - OS Version: 20.04.6 LTS
-- Kernel Version: 5.15.0-1053-azure
-- Image Version: 20240122.3.0
+- Kernel Version: 5.15.0-1054-azure
+- Image Version: 20240204.1.0
 - Systemd version: 245.4-4ubuntu3.23
 
 ## Installed Software
@@ -34,7 +33,7 @@
 ### Package Management
 - cpan 1.64
 - Helm 3.14.0
-- Homebrew 4.2.5
+- Homebrew 4.2.6
 - Miniconda 23.11.0
 - Npm 10.2.3
 - NuGet 6.6.1.2
@@ -42,7 +41,7 @@
 - Pip3 20.0.2
 - Pipx 1.4.3
 - RubyGems 3.1.2
-- Vcpkg (build from commit fa6e6a6ec)
+- Vcpkg (build from commit 80403036a)
 - Yarn 1.22.21
 
 #### Environment variables
@@ -61,7 +60,7 @@ to accomplish this.
 
 ### Project Management
 - Ant 1.10.7
-- Gradle 8.5
+- Gradle 8.6
 - Lerna 8.0.2
 - Maven 3.8.8
 - Sbt 1.9.8
@@ -69,13 +68,13 @@ to accomplish this.
 ### Tools
 - Ansible 2.13.13
 - apt-fast 1.10.0
-- AzCopy 10.21.2 - available by `azcopy` and `azcopy10` aliases
-- Bazel 7.0.1
+- AzCopy 10.23.0 - available by `azcopy` and `azcopy10` aliases
+- Bazel 7.0.2
 - Bazelisk 1.19.0
 - Bicep 0.24.24
 - Buildah 1.22.3
-- CMake 3.28.1
-- CodeQL Action Bundle 2.16.0
+- CMake 3.28.2
+- CodeQL Action Bundle 2.16.1
 - Docker Amazon ECR Credential Helper 0.7.1
 - Docker Compose v1 1.29.2
 - Docker Compose v2 2.23.3
@@ -90,10 +89,10 @@ to accomplish this.
 - Heroku 8.7.1
 - HHVM (HipHop VM) 4.172.1
 - jq 1.6
-- Kind 0.20.0
+- Kind 0.21.0
 - Kubectl 1.29.1
 - Kustomize 5.3.0
-- Leiningen 2.10.0
+- Leiningen 2.11.1
 - MediaInfo 19.09
 - Mercurial 5.3.1
 - Minikube 1.32.0
@@ -101,41 +100,41 @@ to accomplish this.
 - Newman 6.1.0
 - nvm 0.39.7
 - OpenSSL 1.1.1f-1ubuntu2.20
-- Packer 1.10.0
+- Packer 1.10.1
 - Parcel 2.11.0
 - PhantomJS 2.1.1 2.1.1
 - Podman 3.4.2
-- Pulumi 3.102.0
+- Pulumi 3.104.2
 - R 4.3.2
 - Skopeo 1.5.0
 - Sphinx Open Source Search Server 2.2.11
 - SVN 1.13.0
-- Terraform 1.7.0
+- Terraform 1.7.2
 - yamllint 1.33.0
 - yq 4.40.5
 - zstd 1.5.5
 
 ### CLI Tools
 - Alibaba Cloud CLI 3.0.174
-- AWS CLI 2.15.12
+- AWS CLI 2.15.17
 - AWS CLI Session Manager Plugin 1.2.553.0
-- AWS SAM CLI 1.107.0
+- AWS SAM CLI 1.108.0
 - Azure CLI 2.56.0
 - Azure CLI (azure-devops) 0.26.0
-- GitHub CLI 2.42.1
-- Google Cloud CLI 460.0.0
-- Netlify CLI 17.15.2
-- OpenShift CLI 4.14.9
+- GitHub CLI 2.43.1
+- Google Cloud CLI 462.0.1
+- Netlify CLI 17.15.7
+- OpenShift CLI 4.14.10
 - ORAS CLI 1.1.0
-- Vercel CLI 33.2.0
+- Vercel CLI 33.4.1
 
 ### Java
 | Version             | Environment Variable |
 | ------------------- | -------------------- |
-| 8.0.392+8           | JAVA_HOME_8_X64      |
-| 11.0.21+9 (default) | JAVA_HOME_11_X64     |
-| 17.0.9+9            | JAVA_HOME_17_X64     |
-| 21.0.1+12           | JAVA_HOME_21_X64     |
+| 8.0.402+6           | JAVA_HOME_8_X64      |
+| 11.0.22+7 (default) | JAVA_HOME_11_X64     |
+| 17.0.10+7           | JAVA_HOME_17_X64     |
+| 21.0.2+13           | JAVA_HOME_21_X64     |
 
 ### PHP Tools
 - PHP: 7.4.33, 8.0.30, 8.1.27, 8.2.15, 8.3.2
@@ -158,20 +157,20 @@ Both Xdebug and PCOV extensions are installed, but only Xdebug is enabled.
 - Rustup 1.26.0
 
 #### Packages
-- Bindgen 0.69.2
-- Cargo audit 0.18.3
+- Bindgen 0.69.4
+- Cargo audit 0.19.0
 - Cargo clippy 0.1.75
 - Cargo outdated 0.14.0
 - Cbindgen 0.26.0
 - Rustfmt 1.7.0
 
 ### Browsers and Drivers
-- Google Chrome 120.0.6099.224
-- ChromeDriver 120.0.6099.109
-- Chromium 120.0.6099.0
-- Microsoft Edge 120.0.2210.144
-- Microsoft Edge WebDriver 120.0.2210.144
-- Selenium server 4.16.1
+- Google Chrome 121.0.6167.139
+- ChromeDriver 121.0.6167.85
+- Chromium 121.0.6167.0
+- Microsoft Edge 121.0.2277.98
+- Microsoft Edge WebDriver 121.0.2277.98
+- Selenium server 4.17.0
 - Mozilla Firefox 122.0
 - Geckodriver 0.34.0
 
@@ -200,7 +199,7 @@ Use the following command as a part of your job to start the service: 'sudo syst
 ```
 
 #### MySQL
-- MySQL 8.0.35-0ubuntu0.20.04.1
+- MySQL 8.0.36-0ubuntu0.20.04.1
 ```
 User: root
 Password: root
@@ -248,7 +247,7 @@ Use the following command as a part of your job to start the service: 'sudo syst
 - 3.1.4
 
 ### PowerShell Tools
-- PowerShell 7.2.18
+- PowerShell 7.4.1
 
 #### PowerShell Modules
 - Az: 9.3.0
@@ -269,7 +268,7 @@ Use the following command as a part of your job to start the service: 'sudo syst
 | Package Name               | Version                                                                                                                                                                                           |
 | -------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Android Command Line Tools | 9.0                                                                                                                                                                                               |
-| Android SDK Build-tools    | 34.0.0<br>33.0.0 33.0.1 33.0.2<br>32.0.0<br>31.0.0                                                                                                                                                |
+| Android SDK Build-tools    | 34.0.0<br>33.0.0 33.0.1 33.0.2 33.0.3<br>32.0.0<br>31.0.0                                                                                                                                         |
 | Android SDK Platforms      | android-34-ext8 (rev 1)<br>android-34-ext10 (rev 1)<br>android-34 (rev 2)<br>android-33-ext5 (rev 1)<br>android-33-ext4 (rev 1)<br>android-33 (rev 3)<br>android-32 (rev 1)<br>android-31 (rev 1) |
 | Android Support Repository | 47.0.0                                                                                                                                                                                            |
 | CMake                      | 3.10.2<br>3.18.1<br>3.22.1                                                                                                                                                                        |
@@ -290,20 +289,20 @@ Use the following command as a part of your job to start the service: 'sudo syst
 ### Cached Docker images
 | Repository:Tag       | Digest                                                                   | Created    |
 | -------------------- | ------------------------------------------------------------------------ | ---------- |
-| alpine:3.16          | sha256:e4cdb7d47b06ba0a062ad2a97a7d154967c8f83934594d9f2bd3efa89292996b  | 2023-11-30 |
-| alpine:3.17          | sha256:6e94b5cda2d6fd57d85abf81e81dabaea97a5885f919da676cc19d3551da4061  | 2023-11-30 |
-| alpine:3.18          | sha256:34871e7290500828b39e22294660bee86d966bc0017544e848dd9a255cdf59e0  | 2023-11-30 |
-| debian:10            | sha256:defa5d214292f2aaf7905d3e4bcdf8f628019feb63e7c8746df563d1a941f8d7  | 2024-01-11 |
-| debian:11            | sha256:71cb300d5448af821aedfe63afd55ba05f45a6a79f00dcd131b96b780bb99fe4  | 2024-01-11 |
+| alpine:3.16          | sha256:452e7292acee0ee16c332324d7de05fa2c99f9994ecc9f0779c602916a672ae4  | 2024-01-27 |
+| alpine:3.17          | sha256:53cf9478b76f4c8fae126acbdfb79bed6e69e628faff572ebe4a029d3d247d98  | 2024-01-27 |
+| alpine:3.18          | sha256:11e21d7b981a59554b3f822c49f6e9f57b6068bb74f49c4cd5cc4c663c7e5160  | 2024-01-27 |
+| debian:10            | sha256:8fc5c3f7828792d01a02f490202c4b1aaa33f00a3beed5bc12814e3ed55fa0e2  | 2024-01-31 |
+| debian:11            | sha256:44cfd77e3dbebfa8a0545d9fd1bee6e874cf6998a3bbfb5cccf34919df4e3360  | 2024-01-31 |
 | debian:9             | sha256:c5c5200ff1e9c73ffbf188b4a67eb1c91531b644856b4aefe86a58d2f0cb05be  | 2022-06-23 |
-| moby/buildkit:latest | sha256:5a8f30813a104b86e927ff4695a746f74a5bb921c7be1dbcca6d754dfbe04822  | 2023-12-01 |
+| moby/buildkit:latest | sha256:449188623c7a8a3bd4f161c5d0ddf5cabbfb828f7eaadf9ed8111864b911a308  | 2024-01-31 |
 | node:16              | sha256:f77a1aef2da8d83e45ec990f45df50f1a286c5fe8bbfb8c6e4246c6389705c0b  | 2023-09-07 |
 | node:16-alpine       | sha256:a1f9d027912b58a7c75be7716c97cfbc6d3099f3a97ed84aa490be9dee20e787  | 2023-08-10 |
-| node:18              | sha256:995a5f4314885452a4a785abc25a0fec40e26c346559e11e709d58bb7a927cf4  | 2024-01-17 |
-| node:18-alpine       | sha256:b1a0356f7d6b86c958a06949d3db3f7fb27f95f627aa6157cb98bc65c801efa2  | 2023-12-11 |
-| node:20              | sha256:ffebb4405810c92d267a764b21975fb2d96772e41877248a37bf3abaa0d3b590  | 2024-01-17 |
-| node:20-alpine       | sha256:8e6a472eb9742f4f486ca9ef13321b7fc2e54f2f60814f339eeda2aff3037573  | 2024-01-10 |
-| ubuntu:20.04         | sha256:f2034e7195f61334e6caff6ecf2e965f92d11e888309065da85ff50c617732b8  | 2023-12-13 |
+| node:18              | sha256:2a13079c6393cd19adfd8d362fac004b2d0eed462f3c3fedfad2c0d0de17b429  | 2024-02-01 |
+| node:18-alpine       | sha256:0085670310d2879621f96a4216c893f92e2ded827e9e6ef8437672e1bd72f437  | 2024-01-27 |
+| node:20              | sha256:fd0115473b293460df5b217ea73ff216928f2b0bb7650c5e7aa56aae4c028426  | 2024-02-01 |
+| node:20-alpine       | sha256:2f46fd49c767554c089a5eb219115313b72748d8f62f5eccb58ef52bc36db4ad  | 2024-01-27 |
+| ubuntu:20.04         | sha256:bb1c41682308d7040f74d103022816d41c50d7b0c89e9d706a74b4e548636e54  | 2024-01-23 |
 
 ### Installed apt packages
 | Name                   | Version                           |
@@ -392,7 +391,7 @@ Use the following command as a part of your job to start the service: 'sudo syst
 | upx                    | 3.95-2build1                      |
 | wget                   | 1.20.3-1ubuntu2                   |
 | xorriso                | 1.5.2-1                           |
-| xvfb                   | 2:1.20.13-1ubuntu1\~20.04.14      |
+| xvfb                   | 2:1.20.13-1ubuntu1\~20.04.15      |
 | xz-utils               | 5.2.4-1ubuntu1.1                  |
 | zip                    | 3.0-11build1                      |
 | zsync                  | 0.6.2-3ubuntu1                    |
